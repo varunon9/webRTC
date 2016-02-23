@@ -1,0 +1,17 @@
+{
+  "name": "web_rtc",
+  "version": "1.0.0",
+  "description": "A simple chat application between two peers. Peer can have audio, video, file and text chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Varun kumar (varunon9@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5",
+    "websocket": "^1.0.22",
+    "ws": "^1.0.1"
+  }
+}

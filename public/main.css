@@ -1,0 +1,127 @@
+html {
+	height: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: "Times New Roman", Times, serif; 
+	font-size: 1em;
+}
+input {
+	font-size: 1em;
+}
+#main {
+	width: 100%;
+	height: 67%;
+	text-align: center;
+	overflow: hidden;
+}
+#connectionStatus {
+	color: purple;
+}
+#makeConnection {
+	width: 100%;
+}
+#makeConnection input[type="text"] {
+	min-width: 40%;
+}
+#videoContainer {
+	width: 100%;
+	position: relative;
+}
+#localVideo, #remoteVideo {
+	background: silver;
+	vertical-align: text-top;
+}
+#localVideoController {
+	width: 25%;
+	margin: 0% 1% 1% 1%;
+	float: left;
+}
+#localVideo {
+	position: relative;
+	width: 100%;
+}
+#remoteVideoContainer {
+	width: 40%;
+	margin: 0% 1% 1% 1%;
+	float: left;
+}
+#remoteVideo {
+	position: relative;
+	width: 100%;
+}
+#toast {
+	background: silver;
+	width: 25%;
+	margin: 0% 1% 1% 1%;
+	float: left;
+}
+#control {
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+}
+#control input[type="button"] {
+	float: left;
+	margin-left: 2%;
+}
+#chatMessages {
+	width: 98%;
+	height: 20%;
+	overflow-X: hidden;
+	overflow-Y: scroll;
+	position: relative;
+	margin: 1% 1% 1% 1%;
+	background: silver;
+}
+#chatMessages ol li:nth-child(odd) {
+	color: purple;
+}
+#chatMessages ol li:nth-child(even) {
+	color: green;
+}
+#typeMessages {
+	width: 98%;
+	height: 10%;
+	margin: 1% 1% 1% 1%;
+	position: relative;
+	overflow: hidden;
+}
+#typeMessagesForm {
+	margin: 0;
+	padding: 0;
+}
+#chatTextField {
+	width: 80%;
+	float: left;
+}
+#sendMessageButton {
+	width: 12%;
+	float: left;
+	margin-left: 1%;
+}
+@media only screen and (max-width: 720px) {
+	body {
+		font-size: .8em;
+	}
+	input {
+		font-size: 1em;
+	}
+}
+@media only screen and (max-width: 420px) {
+	body {
+		font-size: .7em;
+	}
+	#control input[type="button"] {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	body {
+		font-size: .6em;
+	}
+}
