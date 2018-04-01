@@ -7,11 +7,14 @@ Then the other user can use this id and establish connection.
 
 Running this project
 ---------
-Execute 'npm install' to install dependencies on your machine
 
-Execute 'node index.js' to start server
-
-Visit 'localhost:3500' in web browser to connect. 
+1. Execute 'npm install' to install dependencies on your machine
+2. Execute 'node index.js' or `nodemon` to start server
+3. Visit 'localhost:3500' in web browser to connect. 
 
 That's all. From there you can continue further.
+
+#### Feedback/Query?
+
+contact: varunon9@gmail.com
 
